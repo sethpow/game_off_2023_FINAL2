@@ -1,0 +1,7 @@
+*.exe
+*.dsym
+main
+Character
+Prop
+launch
+.DS_Store
