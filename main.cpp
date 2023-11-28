@@ -127,11 +127,6 @@ int main()
 
     while(!WindowShouldClose())
     {
-        if (IsKeyPressed(KEY_F1))
-        {
-            ToggleFullScreenWindow(windowWidth, windowHeight);
-        }
-
         if(isInMenu)
         {
             if(IsKeyPressed(KEY_N) || newGameButton.IsClicked())
@@ -182,7 +177,6 @@ int main()
             // loadGameButton.Draw();
             controlsButton.Draw();
             instructionsButton.Draw();
-            DrawText("F1 - Toggle Fullscreen", 100, 500, 40, RAYWHITE);
             DrawText("ESC - Quit Game", 100, 550, 40, RAYWHITE);
         }
         else if(creatingChar)
