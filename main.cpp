@@ -196,7 +196,7 @@ int main()
             ClearBackground(BLACK);
             DrawText("Controls", 25, 50, 75, RAYWHITE);
             DrawText("WASD/Arrows - Move", 100, 150, 40, RAYWHITE);
-            DrawText("LC - Attack 1", 100, 200, 40, RAYWHITE);
+            DrawText("Left Click - Attack 1", 100, 200, 40, RAYWHITE);
             DrawText("Space - Shield", 100, 250, 40, RAYWHITE);
             backButton.Draw();
         }
