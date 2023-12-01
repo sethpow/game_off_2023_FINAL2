@@ -21,9 +21,9 @@ public:
     void setScale(float scale) { this->scale = scale; }
     void setSpeed(float speed) { this->speed = speed; }
 protected:
-    Texture2D texture{LoadTexture("resources/characters/knight_idle_spritesheet.png")};
-    Texture2D idle{LoadTexture("resources/characters/knight_idle_spritesheet.png")};
-    Texture2D run{LoadTexture("resources/characters/knight_run_spritesheet.png")};
+    Texture2D texture{LoadTexture("resources/characters/knight_idle_spritesheet_2.png")};
+    Texture2D idle{LoadTexture("resources/characters/knight_idle_spritesheet_2.png")};
+    Texture2D run{LoadTexture("resources/characters/knight_run_spritesheet_2.png")};
     Vector2 worldPos{};
     Vector2 worldPosLastFrame{};
     // direction; 1= right, -1 = left

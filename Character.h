@@ -21,7 +21,7 @@ public:
 private:
     int windowWidth{};
     int windowHeight{};
-    Texture2D weapon{LoadTexture("resources/characters/weapon_sword.png")};
+    Texture2D weapon{LoadTexture("resources/characters/weapon_axe.png")};
     Rectangle weaponCollisionRec{};
     Vector2 arrowPosition{};
     Vector2 arrowOriginPos{};

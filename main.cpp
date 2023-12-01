@@ -68,20 +68,20 @@ int main()
 
     Enemy goblin1{
         Vector2{1000.f, 450.f},
-        LoadTexture("resources/characters/goblin_idle_spritesheet.png"),
-        LoadTexture("resources/characters/goblin_run_spritesheet.png"),
+        LoadTexture("resources/characters/skeleton_idle_spritesheet.png"),
+        LoadTexture("resources/characters/skeleton_run_spritesheet.png"),
         500.0f
     };
     Enemy goblin2{
         Vector2{250.f, 50.f},
-        LoadTexture("resources/characters/goblin_idle_spritesheet.png"),
-        LoadTexture("resources/characters/goblin_run_spritesheet.png"),
+        LoadTexture("resources/characters/skeleton_idle_spritesheet.png"),
+        LoadTexture("resources/characters/skeleton_run_spritesheet.png"),
         500.0f
     };
     Enemy goblin3{
         Vector2{750.f, 750.f},
-        LoadTexture("resources/characters/goblin_idle_spritesheet.png"),
-        LoadTexture("resources/characters/goblin_run_spritesheet.png"),
+        LoadTexture("resources/characters/skeleton_idle_spritesheet.png"),
+        LoadTexture("resources/characters/skeleton_run_spritesheet.png"),
         500.0f
     };
 
